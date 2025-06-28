@@ -26,9 +26,9 @@
                   <el-option v-for="(v, k) in options.clientTypes" :key="k" :label="k" :value="v"></el-option>
                 </el-select>
               </el-form-item>
-              <el-form-item label="后端地址:">
+              <el-form-item label="subapi.hanai.us.kg">
                 <el-select v-model="form.customBackend" allow-create filterable @change="selectChanged"
-                  placeholder="可输入自己的后端" style="width: 100%">
+                  placeholder="subapi.hanai.us.kg" style="width: 100%">
                   <el-option v-for="(v, k) in options.customBackend" :key="k" :label="k" :value="v"></el-option>
                 </el-select>
               </el-form-item>
